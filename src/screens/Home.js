@@ -3,6 +3,7 @@ import React from 'react';
 import { View, Text, Image, SafeAreaView, FlatList, } from 'react-native';
 import SearchBar from '../components/SearchBar';
 import BotonList from '../components/BotonList';
+import BotonDirection from '../components/BotonDirection';
 
 const Data = [
     { id: '1', title: '123', screen: 'Llamada', imagen: require("../assets/pokeball.png")},
@@ -35,9 +36,7 @@ const Home = () => {
                 showsVerticalScrollIndicator={false}
                 numColumns={3}
             />
-
-            
-        <Text style={tw`text-red-700`}>Home Emergency directory </Text>
+            <BotonDirection/>
         </View>
     </SafeAreaView>
     );

@@ -2,7 +2,6 @@ import tw from 'twrnc'
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { Searchbar } from 'react-native-paper'
-import  Icon  from 'react-native-vector-icons/FontAwesome5';
 import { TextInput } from 'react-native-gesture-handler';
 
 const SearchBar = () => {
