@@ -12,7 +12,7 @@ const SearchBar = () => {
           <Searchbar
             placeholder="Buscar..."
             placeholderTextColor="gray"
-            iconColor="yellow"
+            iconColor="rgba(252,211,77,1)"
             elevation={5}
             inputStyle={{ 
               color: "rgba(247,247,247,1)", 
