@@ -2,7 +2,6 @@ import tw from 'twrnc'
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import { Searchbar } from 'react-native-paper'
-import  Icon  from 'react-native-vector-icons/FontAwesome5';
 import { TextInput } from 'react-native-gesture-handler';
 
 const SearchBar = () => {
@@ -12,7 +11,7 @@ const SearchBar = () => {
           <Searchbar
             placeholder="Buscar..."
             placeholderTextColor="gray"
-            iconColor="yellow"
+            iconColor="rgba(252,211,77,1)"
             elevation={5}
             inputStyle={{ 
               color: "rgba(247,247,247,1)", 
